@@ -3,7 +3,7 @@
  * @Author: niezihao
  * @Date: 2023-09-11 17:10:47
  * @LastEditors: niezihao
- * @LastEditTime: 2023-09-26 17:03:00
+ * @LastEditTime: 2023-09-26 17:30:04
 -->
 <template>
   <div class="containers">
@@ -101,7 +101,7 @@ export default {
   top: 0;
   width: 300px;
 }
-.bts-toggle-mode {
+/deep/ .bts-toggle-mode {
   display: none;
 }
 </style>
